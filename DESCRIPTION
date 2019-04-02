@@ -1,0 +1,13 @@
+Package: firstcomp
+Title: Helps Rob Understand the rrtools Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Robert",
+           family = "Schick",
+           role = c("aut", "cre"),
+           email = "rss10@duke.edu")
+Description: Got here is to try and work through the iterations of the rrtools package so that I understand how the compendium concept works and how to apply it in my workflow.
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
