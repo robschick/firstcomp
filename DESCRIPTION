@@ -1,7 +1,7 @@
 Package: firstcomp
 Title: Helps Rob Understand the rrtools Package
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
     person(given = "Robert",
            family = "Schick",
            role = c("aut", "cre"),
@@ -13,3 +13,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/robschick/firstcomp
 BugReports: https://github.com/robschick/firstcomp/issues
+Imports: bookdown
