@@ -13,4 +13,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/robschick/firstcomp
 BugReports: https://github.com/robschick/firstcomp/issues
-Imports: bookdown
+Imports: bookdown, here
