@@ -40,7 +40,7 @@ Here is a citation [@Marwick2017]
 
 # Background
 
-```{r demo, eval = FALSE}
+```{r demo}
 1 + 1
 ```
 
@@ -48,10 +48,18 @@ Here is a citation [@Marwick2017]
 
 # Results
 
-```{r get-data, eval = FALSE}
+```{r get-data}
 # Note the path that we need to use to access our data files when rendering this document
-my_data <- readr::read_csv(here::here('analysis', 'data', 'raw_data', 'my_csv_file.csv'))
+priors <- readr::read_csv(here::here('analysis', 'data', 'raw_data', 'PhilipsMay2015revisedPriorWeightsLongFormat.csv'))
+head(priors)
 ```
+
+Ok, once we have those, then we need to save them into a derived data file
+
+```{r}
+readr::write_rds(priors, here::here('analysis', 'data', 'derived_data', 'priors.rds'))
+```
+
 
 # Discussion
 
