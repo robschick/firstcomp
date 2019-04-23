@@ -1,8 +1,8 @@
 ---
-title: "My Great Image"
+title: "My Test Image For Binder"
 author:
   - Rob Schick
-  - Author Two
+  - Rob's Alter Ego, Dr. Bob
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
     bookdown::html_document2:
@@ -11,11 +11,11 @@ output:
 bibliography: references.bib
 csl: "../templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
 abstract: |
-  Text of abstract
+  I do declare this is fine work.
 keywords: |
-  keyword 1; keyword 2; keyword 3
+  Amazing Work; Stupendous; Captivating
 highlights: |
-  These are the highlights. 
+  This is the most reproducible article ever. 
 ---
 
 
@@ -36,7 +36,11 @@ library(firstcomp) # Or use devtools::load_all('.', quiet = T) if your code is i
 
 # Introduction
 
-Here is a citation [@Marwick2017]
+```{r}
+hist(rnorm(30), breaks = 30)
+```
+
+
 
 # Background
 
