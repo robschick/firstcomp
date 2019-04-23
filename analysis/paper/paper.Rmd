@@ -1,7 +1,7 @@
 ---
-title: "Title Goes Here"
+title: "My Great Image"
 author:
-  - Author One
+  - Rob Schick
   - Author Two
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
